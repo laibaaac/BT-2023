@@ -1,34 +1,33 @@
 # BT-2023
 
-## Afbeeldingen 
-Progressive enhancement is een webdevelopings techniek waarbij wordt begonnen met een eenvoudige, functionele versie van een webpagina en vervolgens meer geavanceerde functies worden toegevoegd voor gebruikers met meer geschikte apparaten of browsers.
+## Afbeeldingen
+![image](https://user-images.githubusercontent.com/94360732/227063105-e9eb1221-cf0c-4896-b290-d3d9136b5123.png)
 
-In de context van afbeeldingen houdt progressieve verbetering meestal in dat een versie met een lage resolutie van een afbeelding als standaard wordt gebruikt en vervolgens een versie met een hogere resolutie wordt geladen voor gebruikers met apparaten of browsers die dit ondersteunen.
+Stel je voor je hebt een website vol afbeeldingen, maar je hebt een hele slechte internet. Hoe zie je dan de afbeeldingen? Worden ze überhaupt geladen? Als ze niet worden geladen wat zie je dan?
+Hoe kunnen wij nou afbeeldingen zo toegankelijk mogelijk maken voor elke gebruiker? Hoe kunnen wij de afbeelding laten zien wanneer er trage internet is,  een andere device wordt gebruikt dat niet verschillende afbeelding formaten ondersteund of als de gebruiker blind/ slechtziend is, hoe geven we de informatie mee? 
 
-Deze aanpak heeft verschillende voordelen, waaronder:
+Nou dan hebben we te maken met de developingsmethode progressive enhancement. 
+Een progressive enhancement bij de afbeeldingen kan zijn dat je een versie van de afbeelding met een lage resolutie standaard gebruikt en een versie met een  hogere resolutie die wordt geladen voor gebruikers met apparaten of browsers die dit ondersteunen.
 
-Snellere laadtijden voor gebruikers met langzamere verbindingen of minder capabele apparaten, die mogelijk geen grote afbeeldingsbestanden aankunnen.
+Er zijn verschillende manieren hoe je de afbeeldingen toegankelijk voor iedereen kan maken, dat zijn:
+- Het "alt"-attribuut te gebruiken. Als de afbeeldingen niet worden geladen, kun je de alt text weergeven (waar er een beschrijving van de afbeelding staat). Ook is dit heel fijn voor de screenreader voor mensen die beperkte zicht hebben. Zij zien de afbeelding niet, maar de afbeelding kan dmv een alt text beschreven worden. 
+- Lazy Loading.  Even terug op de trage internetverbinding,  Als de gebruiker een trage internetverbinding heeft, duurt het wat langer voor het laden van de content. De content wordt in een keer geladen, waardoor het wat lang kan gebeuren. Hoe kan je dit nou voorkomen? LAZY LOADING to the rescue!! Lazy loading is een methode die je in je js kan toepassen. Door lazy loading kan je het laden van de afbeelding uitstellen totdat ze echt nodig zijn. Door Lazy Loading kan de laadtijd wat vermindert worden en de hoeveelheid gegevens verminderen die gedownload moet worden. 
+![image](https://user-images.githubusercontent.com/94360732/227063053-ed9a4b6d-b376-41b9-aca3-76dedcf19980.png)
 
-Verbeterde toegankelijkheid voor gebruikers met een handicap, die mogelijk ondersteunende technologieën gebruiken die geen grote afbeeldingsbestanden aankunnen.
+- Responsive afbeelding.  Door het responsive maken van de afbeelding wordt de grootte en het formaat van de afbeeldingen aangepast op basis van het apparaat en de schermgrootte van de gebruiker. Dit kan ervoor zorgen dat afbeeldingen correct wordt weergegeven op alle apparaten en kan ook de hoeveelheid gegevens die moet worden gedownload verminderen.
+![image](https://user-images.githubusercontent.com/94360732/227063301-ea7511bc-2ec1-4765-9f3e-9eb5737b270e.png)
 
-Verbeterde zoekmachineoptimalisatie (SEO), omdat zoekmachines gemakkelijker kleinere afbeeldingsbestanden kunnen crawlen en indexeren.
-
-Verbeterde algemene gebruikerservaring, aangezien gebruikers nog steeds toegang hebben tot de basisinhoud van de pagina, zelfs als ze de afbeeldingen met hoge resolutie niet kunnen bekijken.
-
-Over het algemeen is progressieve verbetering een krachtige tool voor webontwikkelaars die websites willen maken die toegankelijk, efficiënt en gebruiksvriendelijk zijn
 
 ## custom fonts
-Aangepaste lettertypen kunnen ook worden geïmplementeerd met behulp van progressieve verbetering. Bij het gebruik van aangepaste lettertypen is de standaardbenadering het gebruik van een terugvallettertype dat beschikbaar is op alle apparaten en browsers, en vervolgens het aangepaste lettertype te laden voor gebruikers met apparaten of browsers die dit ondersteunen.
+![image](https://user-images.githubusercontent.com/94360732/227063002-b4a93b11-ea55-4327-9c5d-ce0301310517.png)
 
-Hier zijn enkele van de stappen die betrokken zijn bij het implementeren van aangepaste lettertypen met progressieve verbetering:
+Niet iedereen heeft dezelfde soort set fonts, zeker niet als je custom fonts gebruikt. De gebruiker kan dan bijvoorbeeld de tekst niet zien, omdat  ze de specifieke fonts niet hebben. Hoe kunnen wij met progressive enhancement dit veranderen?
 
-Kies een fallback-lettertype dat qua stijl vergelijkbaar is met uw aangepaste lettertype. Dit zorgt ervoor dat uw tekst leesbaar blijft, zelfs als het aangepaste lettertype niet kan worden geladen.
+Als je het custom fonts gebruikt is het handig om gebruik van een fallback font te maken. Zo kan je met een fallback font gebruiken die op alle apparaten en browsers te zien is en beschikbaar is. 
+Zo wordt de custom font automatisch vervangen wanneer de gebruiker een custom font heeft die niet wordt ondersteund door de browser. 
+![image](https://user-images.githubusercontent.com/94360732/227063418-b272797d-93bd-44d9-8dbd-6239c5a2f474.png)
 
-Gebruik de @font-face-regel in uw CSS om het aangepaste lettertype te laden. Zorg ervoor dat u zowel het lettertypebestand als de lettertypeformaten (bijv. WOFF, TTF, EOT) opneemt om ervoor te zorgen dat het compatibel is met zoveel mogelijk apparaten en browsers.
-
-Gebruik de eigenschap font-family in uw CSS om zowel het aangepaste lettertype als het fallback-lettertype op te geven. Dit zorgt ervoor dat het fallback-lettertype wordt weergegeven op apparaten en browsers die het aangepaste lettertype niet ondersteunen.
-
-Gebruik functiedetectietechnieken, zoals Modernizr of CSS @supports, om te controleren of de browser van de gebruiker het aangepaste lettertype ondersteunt voordat het wordt geladen. Als de browser het lettertype niet ondersteunt, wordt in plaats daarvan het fallback-lettertype gebruikt.
-
-Door technieken voor progressieve verbetering te gebruiken, kunt u ervoor zorgen dat uw website toegankelijk en functioneel is voor alle gebruikers, ongeacht hun apparaat- of browsermogelijkheden.
-
+Er zijn verschillende manieren hoe je een custom font toegankelijk voor iedereen kan maken, dat zijn:
+- @font-face in css. @font-face is een CSS-regel waarmee jouw custom font kunt invoeren om op een website te verschijnen, zelfs als het specifieke lettertype niet op de computer van de bezoeker is geïnstalleerd. Zorg ervoor dat je  zowel het fondsbestand als de fontsformaten (bijv. WOFF, TTF, EOT) benoemt om ervoor te zorgen dat het te zien is bij zoveel mogelijk apparaten en browsers.
+- Font-family in css. Font-family kan gebruikt worden om zowel het aangepaste font als het fallback font op te geven. Dit zorgt ervoor dat het fallback-lettertype wordt weergegeven op apparaten en browsers die het aangepaste lettertype niet ondersteunen.
+- Function detection. Voorbeelden hiervan zijn Modernizr of CSS @supports, door deze code kan je controleren of de browser van de gebruiker het custom font ondersteunt voordat het wordt geladen. Als de browser het lettertype niet ondersteunt, wordt in plaats daarvan het fallback-lettertype gebruikt
