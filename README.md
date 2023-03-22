@@ -1,6 +1,6 @@
 # BT-2023
 
-## Afbeelding 
+## Afbeeldingen 
 Progressive enhancement is een webdevelopings techniek waarbij wordt begonnen met een eenvoudige, functionele versie van een webpagina en vervolgens meer geavanceerde functies worden toegevoegd voor gebruikers met meer geschikte apparaten of browsers.
 
 In de context van afbeeldingen houdt progressieve verbetering meestal in dat een versie met een lage resolutie van een afbeelding als standaard wordt gebruikt en vervolgens een versie met een hogere resolutie wordt geladen voor gebruikers met apparaten of browsers die dit ondersteunen.
@@ -17,7 +17,7 @@ Verbeterde algemene gebruikerservaring, aangezien gebruikers nog steeds toegang 
 
 Over het algemeen is progressieve verbetering een krachtige tool voor webontwikkelaars die websites willen maken die toegankelijk, efficiënt en gebruiksvriendelijk zijn
 
-## custom fonts uitzetten
+## custom fonts
 Aangepaste lettertypen kunnen ook worden geïmplementeerd met behulp van progressieve verbetering. Bij het gebruik van aangepaste lettertypen is de standaardbenadering het gebruik van een terugvallettertype dat beschikbaar is op alle apparaten en browsers, en vervolgens het aangepaste lettertype te laden voor gebruikers met apparaten of browsers die dit ondersteunen.
 
 Hier zijn enkele van de stappen die betrokken zijn bij het implementeren van aangepaste lettertypen met progressieve verbetering:
