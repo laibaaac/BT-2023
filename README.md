@@ -16,7 +16,7 @@ Er zijn verschillende manieren hoe je de afbeeldingen toegankelijk voor iedereen
 
 - Responsive afbeelding.  Door het responsive maken van de afbeelding wordt de grootte en het formaat van de afbeeldingen aangepast op basis van het apparaat en de schermgrootte van de gebruiker. Dit kan ervoor zorgen dat afbeeldingen correct wordt weergegeven op alle apparaten en kan ook de hoeveelheid gegevens die moet worden gedownload verminderen.
 
-![image](https://user-images.githubusercontent.com/94360732/227063301-ea7511bc-2ec1-4765-9f3e-9eb5737b270e.png)
+- ![image](https://user-images.githubusercontent.com/94360732/227063301-ea7511bc-2ec1-4765-9f3e-9eb5737b270e.png)
 
 
 ## custom fonts
