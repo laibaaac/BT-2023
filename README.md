@@ -11,11 +11,12 @@ Een progressive enhancement bij de afbeeldingen kan zijn dat je een versie van d
 
 Er zijn verschillende manieren hoe je de afbeeldingen toegankelijk voor iedereen kan maken, dat zijn:
 - Het "alt"-attribuut te gebruiken. Als de afbeeldingen niet worden geladen, kun je de alt text weergeven (waar er een beschrijving van de afbeelding staat). Ook is dit heel fijn voor de screenreader voor mensen die beperkte zicht hebben. Zij zien de afbeelding niet, maar de afbeelding kan dmv een alt text beschreven worden. 
-- Lazy Loading.  Even terug op de trage internetverbinding,  Als de gebruiker een trage internetverbinding heeft, duurt het wat langer voor het laden van de content. De content wordt in een keer geladen, waardoor het wat lang kan gebeuren. Hoe kan je dit nou voorkomen? LAZY LOADING to the rescue!! Lazy loading is een methode die je in je js kan toepassen. Door lazy loading kan je het laden van de afbeelding uitstellen totdat ze echt nodig zijn. Door Lazy Loading kan de laadtijd wat vermindert worden en de hoeveelheid gegevens verminderen die gedownload moet worden. 
+- Lazy Loading.  Even terug op de trage internetverbinding,  Als de gebruiker een trage internetverbinding heeft, duurt het wat langer voor het laden van de content. De content wordt in een keer geladen, waardoor het wat lang kan gebeuren. Hoe kan je dit nou voorkomen? LAZY LOADING to the rescue!! Lazy loading is een methode die je in je js kan toepassen. Door lazy loading kan je het laden van de afbeelding uitstellen totdat ze echt nodig zijn. Door Lazy Loading kan de laadtijd wat vermindert worden en de hoeveelheid gegevens verminderen die gedownload moet worden.
+
 ![image](https://user-images.githubusercontent.com/94360732/227063053-ed9a4b6d-b376-41b9-aca3-76dedcf19980.png)
 
 - Responsive afbeelding.  Door het responsive maken van de afbeelding wordt de grootte en het formaat van de afbeeldingen aangepast op basis van het apparaat en de schermgrootte van de gebruiker. Dit kan ervoor zorgen dat afbeeldingen correct wordt weergegeven op alle apparaten en kan ook de hoeveelheid gegevens die moet worden gedownload verminderen.
-- 
+
 ![image](https://user-images.githubusercontent.com/94360732/227063301-ea7511bc-2ec1-4765-9f3e-9eb5737b270e.png)
 
 ## custom fonts
