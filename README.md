@@ -3,3 +3,4 @@
 ## Javascript (dave)
 
 JavaScript is een script- of programmeertaal waarmee je complexe functies op webpagina's kunt implementeren.
+## Russell
