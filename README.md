@@ -1,6 +1,10 @@
 # BT-2023
 
-## Javascript (dave)
+## Afbeelding en custom fonts uitzetten
 
-JavaScript is een script- of programmeertaal waarmee je complexe functies op webpagina's kunt implementeren.
-## Russell
+## Javascript & Content blockers
+
+
+## Kleur aanzetten & Muis/trackpad werkt niet
+
+## Breedband internet uitzetten & Cookies/Localstorage disabled
