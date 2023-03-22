@@ -46,6 +46,17 @@ De reden dat de game werkt, zelfs als je geen internetverbinding hebt, is dat de
 
 4. Sommige vormen van offline functionaliteit: Sommige websites zijn ontworpen met offline functionaliteit in het achterhoofd, zoals progressive web apps (PWA's). Dit soort websites zijn gebouwd om offline te werken door gegevens lokaal op te slaan en te synchroniseren met de server wanneer er weer een internetverbinding beschikbaar is.
 
+## Localstorage :gear:
+|Local storage|
+|:---:|
+|![Localstorage](img/readme/localstorage.webp)|
 
+Lokale opslag is een webopslagtechnologie aan de clientzijde waarmee webtoepassingen gegevens kunnen opslaan op de computer of het apparaat van de gebruiker. Het is een soort permanente opslag die kan worden gebruikt om gegevens lokaal op te slaan, zelfs nadat de gebruiker de browser sluit of de website verlaat.
+
+Lokale opslag werkt door webapplicaties een interface te bieden voor het opslaan en ophalen van sleutel-waardeparen in de webbrowser van de gebruiker. De gegevens worden opgeslagen in een apart gedeelte van het geheugen van de browser, gescheiden van de browsercache of cookies.
+
+Lokale opslag heeft verschillende voordelen ten opzichte van andere opslagopties aan de clientzijde, zoals cookies of sessieopslag. Het kan grotere hoeveelheden gegevens opslaan (tot enkele megabytes) en wordt niet bij elk verzoek teruggestuurd naar de server, waardoor het netwerkverkeer afneemt en de prestaties verbeteren. Bovendien zijn lokale opslaggegevens niet onderhevig aan vervaldatum of verwijdering, zoals cookies dat wel kunnen zijn.
+
+Webapplicaties kunnen de localStorage API gebruiken om gegevens te lezen en te schrijven naar lokale opslag. De gegevens worden opgeslagen als een tekenreeks, dus het kan zijn dat ze moeten worden geconverteerd naar andere gegevenstypen voordat ze door de toepassing kunnen worden gebruikt. Lokale opslaggegevens zijn ook beperkt tot de oorsprong (domein en protocol) van de website, zodat verschillende websites niet bij elkaars gegevens kunnen.
 
 
